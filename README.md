@@ -3,7 +3,7 @@
 
 This is the official PyTorch code for the TransMatcher proposed in our paper [1]. 
 
-<img src="TransMatcher_Thumbnail.png" width=400>
+<img src="TransMatcher_Thumbnail.png" width=600>
 
 For further details, please read our [paper](https://arxiv.org/abs/2105.14432), and a poster [here](TransMatcher_Poster.png).
 
