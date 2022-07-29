@@ -348,11 +348,11 @@ if __name__ == '__main__':
     parser.add_argument('--test_fea_batch', type=int, default=256,
                         help="Feature extraction batch size during testing. Default: 256."
                              "Reduce this if you encounter a GPU memory overflow.")
-    parser.add_argument('--test_gal_batch', type=int, default=256,
-                        help="QAConv gallery batch size during testing. Default: 256."
+    parser.add_argument('--test_gal_batch', type=int, default=128,
+                        help="QAConv gallery batch size during testing. Default: 128."
                              "Reduce this if you encounter a GPU memory overflow.")
-    parser.add_argument('--test_prob_batch', type=int, default=256,
-                        help="QAConv probe batch size (as kernel) during testing. Default: 256."
+    parser.add_argument('--test_prob_batch', type=int, default=128,
+                        help="QAConv probe batch size (as kernel) during testing. Default: 128."
                              "Reduce this if you encounter a GPU memory overflow.")
     # misc
     working_dir = osp.dirname(osp.abspath(__file__))
